@@ -1,0 +1,12 @@
+body{
+	background : url("image/bg.jpg");
+	background-color: black;
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+h1{
+	text-align:center;
+	color:yellow;
+	font-size:100px;
+}

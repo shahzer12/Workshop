@@ -1,0 +1,111 @@
+body {
+	/* background: #060503 url('image/bg.jpg') no-repeat fixed bottom; */
+	background-color : #060503;
+	background-image : url('image/bg.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:bottom;
+	
+	margin:0; 
+	padding:0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.0em;
+	color: #D3DEE3;
+	font-weight: 300;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+/** elements **/
+
+h1 {
+	color: #ddd;
+	font-size: 2.7em;
+	font-weight: 200;
+}
+
+
+.width, #container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#container {
+	padding: 20px 10px;
+}
+
+header {
+	padding: 20px;
+	margin: 0 auto;
+	text-align:center;
+	border-radius: 20px;
+	background-color: rgba(14, 47, 64, 0.5);
+}
+
+header h1 a, header h1 a:hover {
+    color: #fff;
+    font-size: 1.4em;
+    padding: 0px;
+   font-weight: 200;
+    border-bottom: none;
+    letter-spacing: -2px;
+   text-shadow: 1px 1px 0px #163A48;
+   text-decoration: none;
+
+}
+
+
+
+
+ul, ol {
+	margin: 0 0 35px 35px;
+}
+
+li {
+	padding-bottom: 5px;
+}
+
+li ol, li ul {
+	font-size: 1.0em;
+	margin-bottom: 0;
+	padding-top: 5px;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	padding: 0px 18px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: 0;
+   text-shadow: 1px 1px 0px #163A48;
+     border-bottom: none;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 1px solid #163A48;
+}
+
+nav ul li.selected a,
+nav ul li.selected a:hover {
+	color: #fff;
+}
